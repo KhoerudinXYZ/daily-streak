@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 1rem;
+    width: 20rem;
+    margin:auto;
+    margin-top: 1rem;
+    box-shadow: 3px 3px 3px 3px rgb(192, 192, 192);
+}
+
+.container > * {
+    margin: 8px;
+}
+
+.container button {
+    padding: 8px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.container .submit {
+    background-color: rgb(0, 81, 255);
+}
+
+.container .reset {
+    background-color: rgb(216, 7, 0);
+}
+
+.container .submit:hover {
+    background-color: rgb(0, 61, 194);
+    cursor: pointer;
+}
+
+.container .reset:hover {
+    background-color: rgb(158, 5, 0);
+    cursor: pointer;
+}

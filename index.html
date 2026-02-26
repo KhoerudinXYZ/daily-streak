@@ -4,40 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daily Streak</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
         <h1>Daily Streak</h1>
         <p>Day <span id="day" name="day"></span></p>
-        <button type="submit" name="submit" id="submit" onclick="add()">Success</button>
-        <button type="submit" name="reset" id="reset" onclick="reset()">Failed</button>
-    <script>
-        // let day = document.getElementById('day').innerHTML;
-        // let num = parseFloat(day);
-        // function add() {
-        //     num += 1;
-        //     document.getElementById('day').innerHTML = num;
-        // }
-
-        // function reset() {
-        //     num = 0;
-        //     document.getElementById('day').innerHTML = num;
-        // }
-
-        const display = document.getElementById('day');
-        let num = Number(localStorage.getItem("day")) || 0;
-        const updateUI = () => display.textContent = num;
-        updateUI();
-
-        const add = () => { 
-            num++; 
-            localStorage.setItem("day", num);
-            updateUI(); 
-        };
-        const reset = () => { 
-            num = 0; 
-            localStorage.setItem("day", num);
-            updateUI(); 
-        };
-    </script>
+        <button type="submit" name="submit" id="submit" class="submit" onclick="add()">Success</button>
+        <button type="submit" name="reset" id="reset" class="reset" onclick="reset()">Failed</button>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
