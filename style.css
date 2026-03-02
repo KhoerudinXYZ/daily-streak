@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    font-family: "Denk One", sans-serif;
+}
+
 .container {
     text-align: center;
     padding: 1rem;
@@ -14,6 +18,25 @@
 
 .container > * {
     margin: 8px;
+}
+
+.container h1 {
+    font-family: "Gentium Plus", serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.container p#day {
+    display: inline-block;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5rem;
+    text-shadow: 
+                -1px -1px 0 yellow,
+                1px -1px 0 yellow,
+                -1px 1px 0 yellow,
+                1px 1px 0 yellow;
+    text-align: center;
 }
 
 .container button {
