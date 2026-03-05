@@ -10,7 +10,7 @@ body {
 .container {
     text-align: center;
     color: white;
-    background-color: rgb(224, 146, 0);
+    background-color: rgb(255, 218, 150);
     padding: 1rem;
     width: 20rem;
     margin:auto;
@@ -34,7 +34,7 @@ body {
     font-weight: 400;
     font-style: normal;
     font-size: 5rem;
-    -webkit-text-stroke: 3px rgb(255, 202, 27);
+    -webkit-text-stroke: 3px rgb(255, 226, 130);
     text-align: center;
 }
 
