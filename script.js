@@ -26,5 +26,3 @@ const reset = () => {
     themeL.setAttribute("href", theme);
     updateUI(); 
 };
-
-// jika day == 0 change the style.css to fail.css
